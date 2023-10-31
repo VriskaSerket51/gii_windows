@@ -145,7 +145,7 @@ def setupEnvironment():
 	addEnvPath( 'PYTHONPATH', modulePaths, True )
 	
 	os.environ[ 'GII_ENV_SET' ] = 'OK'
-	os.environ[ 'GII_CWD' ] = os.getcwd();
+	os.environ[ 'GII_CWD' ] = os.getcwd()
 	os.environ[ 'GII_BASE_PATH' ] = getMainModulePath()
 	os.environ[ 'GII_SUPPORT_PATH' ] = supportPath
 	os.environ[ 'GII_NATIVE_SUPPORT_PATH' ] = supportPathNative
